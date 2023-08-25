@@ -1,0 +1,42 @@
+<!doctype html>
+<head>
+	<title>LapiScript</title>
+	<meta name="color-scheme" content="dark light">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<style>
+		*, ::before, ::after {
+			box-sizing: border-box;
+		}
+
+		:root {
+			padding: 0;
+			margin: 0;
+			background: #000;
+			color: #DDD;
+		}
+
+		@media (prefers-color-scheme: light) {
+			:root {
+				background: #FFF;
+				color: #222;
+			}
+		}
+
+		body {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			min-width: 100vw;
+			min-height: 100vh;
+			padding: 6.25vmin;
+			margin: 0;
+		}
+
+		#text-block {
+			margin: 0;
+			padding: 0;
+			display: inline-block;
+		}
+	</style>
+	<script src="main.js"></script>
+</head>
